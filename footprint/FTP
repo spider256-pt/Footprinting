@@ -19,5 +19,15 @@ FTP is a standard protocol used to transfer files between a client and server ov
 
 To connect to an FTP server:
 ```bash
-ftp <target> -p <port>
+ftp <target> -p <port>```
+
+| Directive                      | Description                                  |
+| ------------------------------ | -------------------------------------------- |
+| `anonymous_enable=YES`         | Allows login using the `anonymous` username  |
+| `anon_upload_enable=YES`       | Allows file uploads by anonymous users       |
+| `anon_mkdir_write_enable=YES`  | Allows directory creation by anonymous       |
+| `no_anon_password=YES`         | Skips password prompt for anonymous login    |
+| `anon_root=/home/username/ftp` | Sets the root directory for anonymous access |
+| `write_enable=YES`             | Enables write access globally                |
+
 
