@@ -1,0 +1,23 @@
+## 📁 FTP (File Transfer Protocol) — Footprinting Notes
+
+FTP is a standard protocol used to transfer files between a client and server over a network. It operates on **port 21** for control and **port 20** for data in active mode.
+
+---
+
+### 📡 Ports Used
+
+| Port | Usage               |
+|------|---------------------|
+| 21   | Command/control     |
+| 20   | Data transfer (active mode) |
+
+> ✅ FTP is the only protocol among common services that uses **two ports** simultaneously.
+
+---
+
+### 🚀 Basic FTP Sign-in Procedure
+
+To connect to an FTP server:
+```bash
+ftp <target> -p <port>
+
