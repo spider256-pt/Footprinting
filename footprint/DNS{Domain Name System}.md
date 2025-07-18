@@ -3,8 +3,6 @@ Integral Part of the Internet.
 Used to resolve computers name into Ip address, and does not have the central database.
 
 
-
-![[ChatGPT Image Jul 16, 2025, 01_09_13 PM.png]]
 1. There are several types of DNS servers that are used World Wide.
 
 	- ***DNS root server*** | Top-level DNS servers that direct queries to TLDs; managed by ICANN with 13 global instances.
@@ -24,7 +22,6 @@ IT security Professionals apply
 - DOH - DNS over HTTPS
 - DNSCrypt- encrypts the traffic between the computes and the name server.
 
-![[tooldev-dns.webp]]
 
 ***DNS records*** are used for the DNS queries
 
