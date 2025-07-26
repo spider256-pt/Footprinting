@@ -58,7 +58,7 @@ Default Nmap scripts include smtp-commands , which uses the EHLO command to list
 
 TOOLS that is used for ennumerate the username in the server is {smtp-user-enum}
 
-	smtp-user-enum -M <MODES> -U /home/spider/Downloads/footprinting-		wordlist.txt -t <target> -p 25 -w <time in seconds>
+	smtp-user-enum -M <MODES> -U <wordlist.txt> -t <target> -p 25 -w <time in seconds>
 
 
 [[Footprinting important commands]]
