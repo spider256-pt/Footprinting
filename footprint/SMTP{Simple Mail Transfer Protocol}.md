@@ -54,5 +54,12 @@ Default Nmap scripts include smtp-commands , which uses the EHLO command to list
 	
 	{we can uses the smtp-open-relay NSE scripts to identify the target server as an open relay using 16 diff tests. Also prints the output in details} 
 
+## Ennumeration on the SMTP:
+
+TOOLS that is used for ennumerate the username in the server is {smtp-user-enum}
+
+smtp-user-enum -M VRFY -U /home/spider/Downloads/footprinting-wordlist.txt -t <target> -p 25
+
+
 [[Footprinting important commands]]
 [[Nmap Basics]]
