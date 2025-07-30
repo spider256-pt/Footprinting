@@ -79,6 +79,10 @@ high ports(993 and 995) use TLS/SSL to encrypt the communication between client 
 		openssl s_client -connect <target>:pop3s
 	II. For IMAP:
 		openssl s_client -connect <target>:imaps
+## Signing in the server:
+	Use telnet to sign in the server using the taget address and the port number 
+
+ 	1. telnet <address> <port>
 
 [[Nmap Basics]]
 [[Footprinting important commands]]
