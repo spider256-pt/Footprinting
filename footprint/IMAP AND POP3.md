@@ -26,7 +26,7 @@ Both the protocols are used for Email services.
 ## IMAP Commands
 
 	1. 1 LOGIN username password | User's login
-	2. 1 LIST"" * | List all directories
+	2. 1 LIST "" "*" | List all directories
 	3. 1 CREATE "Inbox" | Creats a mailbox with a specified name
 	4. 1 DELETE "Inbox" | Deletes a mailbox
 	5. 1 RENAME "ToRead" "Important" | Renames a mailbox
