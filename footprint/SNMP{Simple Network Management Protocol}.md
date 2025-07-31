@@ -48,8 +48,6 @@
 		 as v3 is more complex so v2 is used widly but its not encrypted which can leads to interception over the network.
 
 ## Dangerous Settings 
-#### Commands of SNMP:
-
 	1. rwuser noauth | Provides access to the full OID tree without authentication.
 	
 	2. rwcommunity <community string> <ipv4 target> | Provides access to the full OID tree regardless  of where the requests were sent from.	
