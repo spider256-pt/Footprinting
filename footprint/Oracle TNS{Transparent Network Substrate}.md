@@ -49,7 +49,6 @@ Service called ORCL, host: 10.129.11.102, protocol: TCP, Port: 1521 ***Retrieve 
 Listener process uses the listener.ora file to determine the services it should listen to and the behavior of the listener.
 
 	For example:
-		```
 	SID_LIST_LISTENER =
 		  (SID_LIST =
 		    (SID_DESC =
@@ -72,7 +71,7 @@ Listener process uses the listener.ora file to determine the services it should 
 	    )
 	  )
 
-	ADR_BASE_LISTENER = C:\oracle```
+	ADR_BASE_LISTENER = C:\oracle
 
 1. Oracle databases can be protected by using so-called PL/SQL Exclusion list (`PlsqlExclusionList`). `//black-List`.
 2. It is a user-created text file that needs to be placed in the `$ORACLE_HOME/sqldeveloper` directory.
