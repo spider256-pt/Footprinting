@@ -117,18 +117,18 @@ Listener process uses the listener.ora file to determine the services it should 
 
 	`6. export PATH=$LD_LIBRARY_PATH:$PATH`
 
-7.```source ~/.bashrc
-cd ~
-git clone https://github.com/quentinhardy/odat.git
-cd odat/
-pip install python-libnmap
-git submodule init
-git submodule update
-pip3 install cx_Oracle
-sudo apt-get install python3-scapy -y
-sudo pip3 install colorlog termcolor passlib python-libnmap
-sudo apt-get install build-essential libgmp-dev -y
-pip3 install pycryptodome```
+7.`source ~/.bashrc`
+`cd ~`
+`git clone https://github.com/quentinhardy/odat.git`
+`cd odat/`
+`pip install python-libnmap`
+`git submodule init`
+`git submodule update`
+`pip3 install cx_Oracle`
+`sudo apt-get install python3-scapy -y`
+`sudo pip3 install colorlog termcolor passlib python-libnmap`
+`sudo apt-get install build-essential libgmp-dev -y`
+`pip3 install pycryptodome`
 
 ## Testing ODAT
 
