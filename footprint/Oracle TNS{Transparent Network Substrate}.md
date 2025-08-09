@@ -106,12 +106,17 @@ Listener process uses the listener.ora file to determine the services it should 
 `
 1. To download:
 	`1. wget https://download.oracle.com/otn_software/linux/instantclient/214000/instantclient-sqlplus-linux.x64-21.4.0.0.0dbru.zip`
+
 	`2. mkdir -p /opt/oracle`
+
 	`3. uzip -d /opt/oracle instanntclient-basic-linux.x64.21.4.0.0.0dbru.zip`
+
 	`4. uzip -d /opt/oracle instanntclient-sqlplus-linux.x64.21.4.0.0.0dbru.zip`
+
 	`5. export LD_LIBRARY_PATH=/opt/oracle/instantclient_21_4:$LD_LIBRARY_PATH`
+
 	`6. export PATH=$LD_LIBRARY_PATH:$PATH`
-	`
+
 7.```source ~/.bashrc
 cd ~
 git clone https://github.com/quentinhardy/odat.git
